@@ -1,5 +1,5 @@
 {
-  "version": 2,
+  "version": 3,
   "updated": "2026-11-13",
   "devices": [
     {
@@ -183,6 +183,26 @@
       "driver": "network",
       "features": "Lighting",
       "notes": "Por la red local. Activá \"Control LAN\" en la app. Acepta pocos cambios por segundo: ideal para colores fijos y efectos lentos."
+    },
+    {
+      "id": "philips-hue",
+      "name": "Luz Philips Hue",
+      "brand": "Philips Hue",
+      "kind": "SmartLight",
+      "names": [ "Hue" ],
+      "driver": "network",
+      "features": "Lighting",
+      "notes": "A través del bridge, emparejado una vez (tocando su botón). El bridge acepta unos 10 cambios por segundo entre todas las luces."
+    },
+    {
+      "id": "nanoleaf",
+      "name": "Paneles Nanoleaf",
+      "brand": "Nanoleaf",
+      "kind": "SmartLight",
+      "names": [ "Nanoleaf", "Shapes", "Canvas", "Elements", "Lines" ],
+      "driver": "network",
+      "features": "Lighting",
+      "notes": "Panel por panel en tiempo real. Al cerrar Vireo vuelve el efecto que tenían."
     },
     {
       "id": "brand-corsair",
