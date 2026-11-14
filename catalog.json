@@ -1,0 +1,263 @@
+{
+  "version": 1,
+  "updated": "2026-11-13",
+  "devices": [
+    {
+      "id": "gigabyte-aorus-waterforce-x",
+      "name": "AORUS WATERFORCE X",
+      "brand": "Gigabyte",
+      "kind": "LiquidCooler",
+      "usb": [ "1044:7A4D" ],
+      "names": [ "WATERFORCE" ],
+      "driver": "aorus-waterforce",
+      "features": "Sensors",
+      "notes": "Vireo lee la temperatura del líquido y las RPM de la bomba y del radiador. Las luces y la pantalla todavía no."
+    },
+    {
+      "id": "asus-aura-motherboard",
+      "name": "Controlador AURA de la placa madre",
+      "brand": "ASUS",
+      "kind": "Motherboard",
+      "usb": [ "0B05:18F3" ],
+      "names": [ "ROG CROSSHAIR", "ROG STRIX", "ROG MAXIMUS", "TUF GAMING", "PRIME ", "ProArt", "ASUS Aura" ],
+      "driver": "openrgb",
+      "features": "Lighting",
+      "notes": "Incluye los conectores ARGB de la placa: en Iluminación podés indicar cuántos LEDs tiene cada uno."
+    },
+    {
+      "id": "corsair-dominator-titanium",
+      "name": "Dominator Titanium DDR5",
+      "brand": "Corsair",
+      "kind": "Ram",
+      "names": [ "Dominator Titanium" ],
+      "driver": "openrgb",
+      "features": "Lighting",
+      "notes": "Se controla por SMBus: necesita el driver PawnIO (Vireo lo instala solo)."
+    },
+    {
+      "id": "corsair-dominator-platinum",
+      "name": "Dominator Platinum RGB",
+      "brand": "Corsair",
+      "kind": "Ram",
+      "names": [ "Dominator Platinum" ],
+      "driver": "openrgb",
+      "features": "Lighting"
+    },
+    {
+      "id": "corsair-vengeance-rgb",
+      "name": "Vengeance RGB",
+      "brand": "Corsair",
+      "kind": "Ram",
+      "names": [ "Vengeance RGB", "Vengeance Pro" ],
+      "driver": "openrgb",
+      "features": "Lighting"
+    },
+    {
+      "id": "gskill-trident-z",
+      "name": "Trident Z RGB",
+      "brand": "G.Skill",
+      "kind": "Ram",
+      "names": [ "Trident Z" ],
+      "driver": "openrgb",
+      "features": "Lighting"
+    },
+    {
+      "id": "kingston-fury-rgb",
+      "name": "FURY RGB",
+      "brand": "Kingston",
+      "kind": "Ram",
+      "names": [ "FURY Beast", "FURY Renegade", "HyperX Predator" ],
+      "driver": "openrgb",
+      "features": "Lighting"
+    },
+    {
+      "id": "evga-rtx-3080ti-ftw3",
+      "name": "GeForce RTX 3080 Ti FTW3 Ultra",
+      "brand": "EVGA",
+      "kind": "Gpu",
+      "names": [ "3080 Ti FTW3", "RTX 3080 Ti" ],
+      "driver": "openrgb",
+      "features": "Lighting, Sensors"
+    },
+    {
+      "id": "nvidia-gpu",
+      "name": "Placa de video NVIDIA",
+      "brand": "NVIDIA",
+      "kind": "Gpu",
+      "names": [ "GeForce", "NVIDIA RTX" ],
+      "features": "Sensors",
+      "notes": "Las luces dependen del fabricante de la placa (ASUS, MSI, EVGA, Gigabyte...)."
+    },
+    {
+      "id": "amd-gpu",
+      "name": "Placa de video AMD",
+      "brand": "AMD",
+      "kind": "Gpu",
+      "names": [ "Radeon" ],
+      "features": "Sensors"
+    },
+    {
+      "id": "elgato-stream-deck-mk2",
+      "name": "Stream Deck MK.2",
+      "brand": "Elgato",
+      "kind": "Keypad",
+      "usb": [ "0FD9:0080" ],
+      "names": [ "Stream Deck MK.2" ],
+      "driver": "openrgb",
+      "features": "Lighting"
+    },
+    {
+      "id": "elgato-stream-deck",
+      "name": "Stream Deck",
+      "brand": "Elgato",
+      "kind": "Keypad",
+      "usb": [ "0FD9:0060", "0FD9:0063", "0FD9:006C", "0FD9:006D" ],
+      "names": [ "Stream Deck" ],
+      "driver": "openrgb",
+      "features": "Lighting"
+    },
+    {
+      "id": "logitech-lightspeed-receiver",
+      "name": "G502 X PLUS (receptor LIGHTSPEED)",
+      "brand": "Logitech",
+      "kind": "Mouse",
+      "usb": [ "046D:C547" ],
+      "names": [ "G502 X PLUS", "G502 X Plus" ],
+      "driver": "openrgb",
+      "features": "Lighting"
+    },
+    {
+      "id": "logitech-g502",
+      "name": "G502",
+      "brand": "Logitech",
+      "kind": "Mouse",
+      "names": [ "G502" ],
+      "driver": "openrgb",
+      "features": "Lighting"
+    },
+    {
+      "id": "hyperx-cloud-flight",
+      "name": "Cloud Flight",
+      "brand": "HyperX",
+      "kind": "Headset",
+      "usb": [ "0951:16C4" ],
+      "names": [ "Cloud Flight" ],
+      "features": "None",
+      "notes": "Detectado. Su luz no se puede controlar todavía desde Vireo."
+    },
+    {
+      "id": "keychron-keyboard",
+      "name": "Teclado Keychron",
+      "brand": "Keychron",
+      "kind": "Keyboard",
+      "usb": [ "3434:*" ],
+      "features": "None",
+      "notes": "Muchos Keychron usan QMK/VIA. El control de luces por cable está en el plan."
+    },
+    {
+      "id": "brand-corsair",
+      "name": "Dispositivo Corsair",
+      "brand": "Corsair",
+      "usb": [ "1B1C:*" ],
+      "driver": "openrgb"
+    },
+    {
+      "id": "brand-razer",
+      "name": "Dispositivo Razer",
+      "brand": "Razer",
+      "usb": [ "1532:*" ],
+      "driver": "openrgb"
+    },
+    {
+      "id": "brand-steelseries",
+      "name": "Dispositivo SteelSeries",
+      "brand": "SteelSeries",
+      "usb": [ "1038:*" ],
+      "driver": "openrgb"
+    },
+    {
+      "id": "brand-logitech",
+      "name": "Dispositivo Logitech",
+      "brand": "Logitech",
+      "usb": [ "046D:*" ],
+      "driver": "openrgb"
+    },
+    {
+      "id": "brand-hyperx",
+      "name": "Dispositivo HyperX",
+      "brand": "HyperX",
+      "usb": [ "0951:*", "03F0:*" ],
+      "driver": "openrgb"
+    },
+    {
+      "id": "brand-nzxt",
+      "name": "Dispositivo NZXT",
+      "brand": "NZXT",
+      "usb": [ "1E71:*" ],
+      "driver": "openrgb"
+    },
+    {
+      "id": "brand-lianli",
+      "name": "Dispositivo Lian Li",
+      "brand": "Lian Li",
+      "kind": "Fan",
+      "usb": [ "0CF2:*" ],
+      "driver": "openrgb"
+    },
+    {
+      "id": "brand-asus",
+      "name": "Dispositivo ASUS",
+      "brand": "ASUS",
+      "usb": [ "0B05:*" ],
+      "driver": "openrgb"
+    },
+    {
+      "id": "brand-msi",
+      "name": "Dispositivo MSI",
+      "brand": "MSI",
+      "usb": [ "1462:*" ],
+      "driver": "openrgb"
+    },
+    {
+      "id": "brand-gigabyte-rgb-fusion",
+      "name": "Controlador RGB Fusion",
+      "brand": "Gigabyte",
+      "kind": "LightingController",
+      "usb": [ "048D:*" ],
+      "driver": "openrgb"
+    },
+    {
+      "id": "brand-gigabyte",
+      "name": "Dispositivo Gigabyte / AORUS",
+      "brand": "Gigabyte",
+      "usb": [ "1044:*" ]
+    },
+    {
+      "id": "brand-coolermaster",
+      "name": "Dispositivo Cooler Master",
+      "brand": "Cooler Master",
+      "usb": [ "2516:*" ],
+      "driver": "openrgb"
+    },
+    {
+      "id": "brand-thermaltake",
+      "name": "Dispositivo Thermaltake",
+      "brand": "Thermaltake",
+      "usb": [ "264A:*" ],
+      "driver": "openrgb"
+    },
+    {
+      "id": "brand-deepcool",
+      "name": "Dispositivo DeepCool",
+      "brand": "DeepCool",
+      "usb": [ "3633:*" ],
+      "driver": "openrgb"
+    },
+    {
+      "id": "brand-elgato",
+      "name": "Dispositivo Elgato",
+      "brand": "Elgato",
+      "usb": [ "0FD9:*" ]
+    }
+  ]
+}
