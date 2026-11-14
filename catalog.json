@@ -1,5 +1,5 @@
 {
-  "version": 1,
+  "version": 2,
   "updated": "2026-11-13",
   "devices": [
     {
@@ -153,6 +153,36 @@
       "usb": [ "3434:*" ],
       "features": "None",
       "notes": "Muchos Keychron usan QMK/VIA. El control de luces por cable está en el plan."
+    },
+    {
+      "id": "govee-lan",
+      "name": "Luz Govee",
+      "brand": "Govee",
+      "kind": "SmartLight",
+      "names": [ "Govee" ],
+      "driver": "network",
+      "features": "Lighting",
+      "notes": "Por la red local. Activá \"Control LAN\" en la app Govee Home para que Vireo la encuentre."
+    },
+    {
+      "id": "wled",
+      "name": "Tira WLED",
+      "brand": "WLED",
+      "kind": "LedStrip",
+      "names": [ "WLED" ],
+      "driver": "network",
+      "features": "Lighting",
+      "notes": "Por la red local, LED por LED (modo tiempo real). Se encuentra sola o agregándola por IP."
+    },
+    {
+      "id": "yeelight-lan",
+      "name": "Luz Yeelight",
+      "brand": "Yeelight",
+      "kind": "SmartLight",
+      "names": [ "Yeelight" ],
+      "driver": "network",
+      "features": "Lighting",
+      "notes": "Por la red local. Activá \"Control LAN\" en la app. Acepta pocos cambios por segundo: ideal para colores fijos y efectos lentos."
     },
     {
       "id": "brand-corsair",
