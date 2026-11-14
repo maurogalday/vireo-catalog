@@ -1,5 +1,5 @@
 {
-  "version": 3,
+  "version": 4,
   "updated": "2026-11-13",
   "devices": [
     {
@@ -151,8 +151,9 @@
       "brand": "Keychron",
       "kind": "Keyboard",
       "usb": [ "3434:*" ],
-      "features": "None",
-      "notes": "Muchos Keychron usan QMK/VIA. El control de luces por cable está en el plan."
+      "driver": "via",
+      "features": "Lighting",
+      "notes": "Con su firmware de fábrica (QMK/VIA) Vireo cambia el color, el brillo y el efecto de todo el teclado. Conectalo con cable y en modo cable: por el receptor inalámbrico no responde. Tecla por tecla necesita un firmware QMK con el protocolo de OpenRGB."
     },
     {
       "id": "govee-lan",
